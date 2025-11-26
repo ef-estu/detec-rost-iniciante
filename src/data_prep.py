@@ -1,10 +1,10 @@
 import cv2
+import os
 
-def carregar_imagem(path):
-    img = cv2.imread(path)
-    return img
+def load_image(path):
+    return cv2.imread(path)
 
-def preprocessar_imagem(img):
+def preprocess_image(img):
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     gray = cv2.equalizeHist(gray)
     return gray
