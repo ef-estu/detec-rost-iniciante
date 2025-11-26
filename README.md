@@ -7,6 +7,7 @@ Este projeto implementa uma IA básica de detecção de rostos utilizando o algo
 - OpenCV
 - NumPy
 - Matplotlib
+- Requests
 
 ## ▶️ Como executar
 1. Abra o arquivo no Google Colab ou Python local.
