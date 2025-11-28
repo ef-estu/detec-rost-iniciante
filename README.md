@@ -1,26 +1,24 @@
 # detec-rost-iniciante
+# 1. Problema / Contexto
 
-Este projeto utiliza o modelo DNN (Deep Neural Network) do OpenCV para detectar rostos em uma imagem baixada da internet. O código realiza o download da imagem, carrega o modelo de detecção e marca os rostos encontrados com retângulos coloridos.
-
----
-
-## 🧠 Funcionalidade
-- Baixa uma imagem a partir de uma URL.
-- Carrega automaticamente o modelo de detecção de rostos (SSD + ResNet).
-- Processa a imagem e identifica rostos.
-- Exibe o resultado com os rostos marcados.
+A detecção automática de rostos é um recurso essencial em diversos sistemas, como monitoramento, autenticação visual e ferramentas educacionais. Para muitos estudantes e desenvolvedores, existe a necessidade de um método simples e funcional que identifique rostos em imagens sem exigir treino pesado ou grandes bases de dados.  
+Neste projeto, “funcionar” significa: **detectar corretamente rostos em uma imagem**, marcar as regiões encontradas e exibir o resultado de forma clara. Isso permite validação rápida de um pipeline real de visão computacional.
 
 ---
 
-## ▶️ Como executar (Google Colab)
-1. Copie o código do projeto para o Google Colab.
-2. Execute cada célula na ordem.
-3. Veja o resultado final com os rostos detectados.
+# 2. Tipo de IA Escolhido e Justificativa
+
+**Técnica utilizada:**  
+➡️ *Detecção de objetos via DNN (Deep Neural Network) – SSD (Single Shot Detector) com backbone ResNet-10, usando OpenCV.*
+
+**Por que é adequado:**  
+- O modelo SSD pré-treinado possui boa precisão e é mais robusto que Haar Cascade.  
+- Não exige treinamento: basta carregar os pesos prontos.  
+- Funciona bem no Google Colab e computadores comuns.  
+- É ideal para protótipos rápidos e demonstrações acadêmicas.  
+- Permite evolução futura para algoritmos mais avançados.
 
 ---
 
-## 📦 Dependências
-Instale com:
+# 3. Estrutura do Repositório
 
-```bash
-pip install opencv-python-headless matplotlib requests numpy
