@@ -1,25 +1,21 @@
 # detec-rost-iniciante
 
-Este projeto implementa uma IA básica de detecção de rostos utilizando o algoritmo Haar Cascade do OpenCV. O código baixa uma imagem da internet, realiza pré-processamento (conversão para tons de cinza e equalização de contraste) e detecta rostos presentes na imagem, destacando cada um com retângulos coloridos.
+Este projeto utiliza o modelo DNN (Deep Neural Network) do OpenCV para detectar rostos em uma imagem baixada da internet. O código realiza o download da imagem, carrega o modelo de detecção e marca os rostos encontrados com retângulos coloridos.
 
-## 🔧 Tecnologias utilizadas
-- Python
-- OpenCV
-- NumPy
-- Matplotlib
-- Requests
+---
 
-## ▶️ Como executar
-1. Abra o arquivo no Google Colab ou Python local.
-2. Instale as dependências:
-   pip install opencv-python numpy matplotlib requests
-3. Execute o código para carregar a imagem e detectar rostos automaticamente.
+## 🧠 Funcionalidade
+- Baixa uma imagem a partir de uma URL.
+- Carrega automaticamente o modelo de detecção de rostos (SSD + ResNet).
+- Processa a imagem e identifica rostos.
+- Exibe o resultado com os rostos marcados.
 
-## 📌 Funcionalidade
-- Baixa uma imagem a partir de uma URL
-- Processa a imagem para melhorar a detecção
-- Localiza rostos usando Haar Cascade
-- Exibe a imagem com as detecções marcadas
+---
 
-## 📷 Exemplo
-O código identifica rostos humanos frontais em imagens com boa iluminação e resolução razoável.
+## ▶️ Como executar (Google Colab)
+1. Copie o código do projeto para o Google Colab.
+2. Execute cada célula na ordem.
+3. Veja o resultado final com os rostos detectados.
+
+```bash
+pip install opencv-python-headless matplotlib requests numpy
