@@ -19,4 +19,23 @@ Neste projeto, “funcionar” significa: **detectar corretamente rostos em uma 
 - Permite evolução futura para algoritmos mais avançados.
 
 ---
+# 3. Dados
+
+Verdadeiros Positivos (VP) = 348 
+Falsos Positivos (FP) = 1
+Falsos Negativos (FN) = 153
+Verdadeiros Negativos (VN) = 19
+
+Acurácia
+0,704 (~70,4%)
+Sensibilidade / Recall
+0,695 (~69,5%)
+Especificidade
+0,95 (95%)
+Precisão
+0,997 (~99,7%)
+F1-Score
+0,818 (~81,8%)
+
+
 
