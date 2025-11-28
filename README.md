@@ -17,5 +17,10 @@ Este projeto utiliza o modelo DNN (Deep Neural Network) do OpenCV para detectar 
 2. Execute cada célula na ordem.
 3. Veja o resultado final com os rostos detectados.
 
+---
+
+## 📦 Dependências
+Instale com:
+
 ```bash
 pip install opencv-python-headless matplotlib requests numpy
