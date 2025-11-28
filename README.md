@@ -20,5 +20,3 @@ Neste projeto, “funcionar” significa: **detectar corretamente rostos em uma 
 
 ---
 
-# 3. Estrutura do Repositório
-
